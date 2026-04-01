@@ -3,7 +3,7 @@ title: "Untitled"
 format: html
 ---
 
-
+See @fig-penguins-scatter for the penguin scatter plot.
 ```{r}
 #| label: fig-penguins-scatter
 #| fig-cap: "Body mass vs. Flipper length for three penguin species."
