@@ -28,3 +28,5 @@ penguins |>
   summarise(mean_mass = mean(body_mass_g)) |>
   knitr::kable()
 ```
+
+As shown in @fig-penguins-scatter, there is a clear positive correlation between flipper length and body mass. The specific averages for each group are detailed in @tbl-penguin-summary.
