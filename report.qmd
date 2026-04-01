@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+format: html
+---
+
+
+```{r}
+#| label: fig-penguins-scatter
+#| fig-cap: "Body mass vs. Flipper length for three penguin species."
+#| warning: false
+library(ggplot2)
+library(palmerpenguins)
+
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() +
+  theme_minimal()
+```
